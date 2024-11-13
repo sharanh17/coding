@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/* style.css */
+#container {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  /* padding: 10px; */
+}
+
+#box1 {
+  height: 100px;
+  width: 100px;
+  /* padding: 20px; */
+  /* text-align: center; */
+}
+
+#rightContainer {
+  display: flex;
+  column-gap: 10px;
+}
+
+#box2,
+#box3 {
+  width: 100px;
+  /* padding: 20px; */
+  /* text-align: center; */
+}

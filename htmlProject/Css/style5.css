@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+#container1 {
+  display: flex;
+  justify-content: flex-end;
+
+  align-items: center;
+  /* padding: 10px; */
+  width: 100%;
+}
+#container2 {
+  display: flex;
+  justify-content: center;
+}
+
+#container3 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#box1,
+#box2,
+#box3 {
+  width: 200px;
+  height: 200px;
+}

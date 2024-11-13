@@ -1,0 +1,12 @@
+#parent {
+  width: 200px;
+  height: 200px;
+  background-color: grey;
+  display: flex;
+  justify-content: end;
+}
+#child {
+  height: 50%;
+  width: 50%;
+  background-color: black;
+}

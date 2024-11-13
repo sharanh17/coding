@@ -1,0 +1,18 @@
+#parent {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(13, 14, 14);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#child {
+  height: 50%;
+  width: 50%;
+  background-color: rgb(100, 88, 88);
+}
+#container {
+  display: flex;
+  justify-content: center;
+}

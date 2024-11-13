@@ -1,0 +1,28 @@
+#container {
+  /* display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-left: 100px;
+  margin-top: 70vh; */
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+#div1 {
+  height: 200px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  background-color: grey;
+}
+#div2 {
+  height: 120px;
+  width: 100px;
+  background-color: black;
+  align-self: flex-end;
+}
+#div3 {
+  height: 120px;
+  width: 100px;
+  background-color: black;
+}
