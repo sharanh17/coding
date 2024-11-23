@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dark {
+  @apply bg-[hsl(207,26%,17%)] text-white;
+}
+
+.light {
+  @apply bg-[hsl(0,0%,98%)]  text-black;
+}
+
+.element-dark {
+  @apply bg-[hsl(209,23%,22%)] text-white;
+}
+
+.element-light {
+  @apply bg-white text-black;
+}
